@@ -1,0 +1,43 @@
+# Platform-specific binaries
+jq.exe
+jq
+
+# Session/cache data (machine-specific)
+cache/
+history.jsonl
+paste-cache/
+shell-snapshots/
+file-history/
+debug/
+downloads/
+ide/
+plugins/
+projects/
+backups/
+plans/
+
+# Sensitive/temporary files
+mcp-needs-auth-cache.json
+cc-statusline-state.json
+stats-cache.json
+settings.json.bak
+settings.json.orig
+settings.local.json
+.credentials.json
+policy-limits.json
+sessions/
+tasks/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Skill test output
+_test_out/
+
+# Usage telemetry
+usage-data/
+
+# Session env / telemetry
+session-env/
+telemetry/

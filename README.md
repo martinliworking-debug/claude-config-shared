@@ -1,6 +1,6 @@
 # Claude Code shared config
 
-A general-purpose Claude Code config to onboard from: 9 skills, a starter `CLAUDE.md`, sensible `settings.json`, a multi-line statusline, and an optional multi-model orchestration workflow (Claude orchestrates; subagents and OpenAI Codex do the work). No personal or work-specific content.
+A general-purpose Claude Code config to onboard from: 13 skills, a starter `CLAUDE.md`, sensible `settings.json`, a multi-line statusline, and an optional multi-model orchestration workflow (Claude orchestrates; subagents and OpenAI Codex do the work). No personal or work-specific content.
 
 ## What's included
 
@@ -14,6 +14,10 @@ A general-purpose Claude Code config to onboard from: 9 skills, a starter `CLAUD
 - `stop-slop` — strip AI writing tells from prose
 - `theme-factory` — style artifacts with preset/custom themes
 - `find-skills` — list/browse installed skills
+- `frontend-slides` — build animation-rich HTML presentations, from scratch or from a PPTX
+- `impeccable` — design, critique, and polish frontend UI/UX
+- `publish-to-web` — publish local HTML to a live public URL (Cloudflare/Netlify/Vercel/Pages)
+- `guizang-ppt-skill` — horizontal-swipe web PPT decks (magazine and Swiss styles)
 
 **Agents** (`agents/`)
 - `deep-reasoner` (Opus) — reasoning-intensive phases: analysis, architecture, planning, difficult problems; returns concise conclusions

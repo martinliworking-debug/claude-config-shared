@@ -41,3 +41,9 @@ usage-data/
 # Session env / telemetry
 session-env/
 telemetry/
+
+# Runtime/debug artifacts that must never be published
+**/.playwright-mcp/
+**/.impeccable/
+**/.bak_*/
+*.pyc
